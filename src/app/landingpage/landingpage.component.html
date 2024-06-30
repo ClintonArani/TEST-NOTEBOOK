@@ -1,0 +1,48 @@
+<div class="landing-container">
+  <header class="header">
+    <div class="hero">
+      <h1>Arrange Your Thoughts, Effortlessly</h1>
+      <p>The optimal application for seamlessly organizing your notes.</p>
+      <button routerLink="/register" class="hero-btn">Start Now</button>
+      <!-- <button routerLink="/reverse" class="hero-btn" style="margin-left: 20px;">Re::Works</button> -->
+    </div>
+  </header>
+
+  <section class="features">
+    <h2>Features</h2>
+    <div class="feature-list">
+      <div class="feature-item">
+        <ion-icon name="easel-outline"></ion-icon>
+        <h3>Effortless to Utilize</h3>
+        <p>Intuitive interface that enables you to jot down notes seamlessly.</p>
+      </div>
+      <div class="feature-item">
+        <ion-icon name="shield-checkmark-outline"></ion-icon>
+        <h3>Protected</h3>
+        <p>Your notes are safely stored and accessible only to you.</p>
+      </div>
+      <div class="feature-item">
+        <ion-icon name="accessibility-outline"></ion-icon>
+        <h3>Available</h3>
+        <p>Retrieve your notes from any device, at any time, and wherever you are.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-us">
+    <h2>Our Story</h2>
+    <div class="about-content">
+      <ion-icon name="people-outline"></ion-icon>
+      <p>We are dedicated to delivering the finest note-taking experience for our users. Our team of committed professionals continually enhances the app to ensure your satisfaction.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <form (submit)="onSubmit()">
+      <input type="email" placeholder="Your email" required>
+      <textarea placeholder="Your message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</div>
